@@ -46,9 +46,9 @@ namespace API_receive_LoraCat
                     });
             });
             services.AddControllers();
-            services.AddDbContext<CatLoraPostContext>(options => options.UseMySQL("server=127.0.0.1;port=3306;user=root;password=159357;database=CatLoraPost"));
+            services.AddDbContext<CatLoraPostContext>(options => options.UseMySQL("server=******;port=3306;user=****;password=***;database=CatLoraPost"));
 
-            //services.AddDbContext<CatLoraPostContext>(options => options.UseMySQL("server=192.168.111.209;port=3306;user=root;password=159357;database=CatLoraPost"));
+            //services.AddDbContext<CatLoraPostContext>(options => options.UseMySQL("server=******;port=3306;user=****;password=***;database=CatLoraPost"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
