@@ -24,7 +24,7 @@ namespace API_receive_LoraCat.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseMySQL("server=192.168.111.209;port=3306;user=root;password=159357;database=CatLoraPost");
+                optionsBuilder.UseMySQL("server=******;port=3306;user=****;password=****;database=CatLoraPost");
             }
         }
 
